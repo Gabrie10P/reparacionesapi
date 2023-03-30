@@ -1,0 +1,24 @@
+{
+  "name": "reparacionesapi",
+  "version": "1.0.0",
+  "description": "Se encarga de servir la información de las reparaciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabrie10P/reparacionesapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabrie10P/reparacionesapi/issues"
+  },
+  "homepage": "https://github.com/Gabrie10P/reparacionesapi#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
