@@ -5,7 +5,7 @@ const fichas = require('./api/routes/fichas')
 const app = express()
 
 app.use(express.json())
-app.set('port',3022)
+app.set('port',process.env.PORT | 3022)
 
 mongoose.connect('mongodb+srv://gabrielpenate8:Ay87unjInmlQyfVJ@reparaciones.kh0murh.mongodb.net/?retryWrites=true&w=majority')
 
